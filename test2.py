@@ -1,11 +1,11 @@
-#This is for the HolybroOut02.bag file
+#This is for the TelloOut01.bag file
 
 from pathlib import Path
 from rosbags.highlevel import AnyReader
 import numpy as np
 import pyvista as pv
 
-BAG_PATH = Path("HolybroOut02.bag")
+BAG_PATH = Path("TelloOut01.bag")
 LIDAR_TOPIC = "/ouster/points"
 
 MAX_RANGE = 20.0        # meters
